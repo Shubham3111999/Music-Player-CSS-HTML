@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/f6c4423268.js" crossorigin="anonymous"></script>
+  <title>Music Player</title>
+</head>
+
+<body>
+  <!-- <h1>Welcome Ninja!!</h1>
+    <h3>Write your code here!</h3>
+    <h3>A CSS and JS file has been created and linked for you already.</h3>
+    <h3>Feel free to change the directory structure to your liking.</h3>
+    <h3>Do not delete any .json file from CodeSandbox</h3> -->
+
+  <header>
+    <nav>
+      <div class="left-header d-flex-align-center">
+
+        <img src="./images/play-2398751.png" alt="logo" height="70px" width="70px">
+
+        <span><a href="#"><b>MP3 <br> STUDIO</b></a> </span>
+
+        <span class="menu"> <a href="#">favourites</a></span>
+
+      </div>
+
+      <div class="right-header d-flex-align-center">
+
+        <input type="text" placeholder="Search.." name="search">
+
+        <i class="fa-sharp fa-solid fa-bell mx-8 notification" style="color: #b7acd6;"></i>
+
+        <div class="userPhoto mx-8"></div>
+
+        <i class="fa-solid fa-bars burger-button"></i>
+
+        <div class="hover-display-menue">
+          <ul>
+            <li><span class="menu"> <a href="#">favourites</a></span></li>
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+
+
+  </header>
+
+  <main>
+    <div class="left-main">
+      <section class="header">
+
+        <div class="header-container">
+          <div class="box">
+            <img src="./images/banner1.jpg" alt="">
+          </div>
+          <div class="box">
+            <img src="./images/banner2.jpg" alt="">
+          </div>
+          <div class="box">
+            <img src="./images/banner1.jpg" alt="">
+          </div>
+        </div>
+
+      </section>
+
+      <section class="latest-release">
+        <h3>Latest Release</h3>
+
+        <div class="music-card-holder">
+
+          <div class="music-card">
+            <div class="card-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" height="75px" width="75px" alt="singer_img">
+
+              <i class="fa-solid fa-play"></i>
+
+            </div>
+
+            <div class="card-desc">
+              <span><b>Onism</b></span><br>
+              <span>AUG 11, 2017</span>
+              <i class="fa-solid fa-ellipsis"></i>
+
+              <input id="check11" type="checkbox" name="menu" />
+              <label for="check11"><i class="fa-solid fa-ellipsis"></i></label>
+              <ul class="submenu">
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+              </ul>
+
+              <span class="duration">4:22</span>
+            </div>
+
+
+          </div>
+
+          <div class="music-card">
+            <div class="card-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" height="75px" width="75px" alt="singer_img">
+
+              <i class="fa-solid fa-play"></i>
+
+            </div>
+
+            <div class="card-desc">
+              <span><b>Onism</b></span><br>
+              <span>AUG 11, 2017</span>
+              <i class="fa-solid fa-ellipsis"></i>
+
+              <input id="check12" type="checkbox" name="menu" />
+              <label for="check12"><i class="fa-solid fa-ellipsis"></i></label>
+              <ul class="submenu">
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+              </ul>
+
+              <span class="duration">4:22</span>
+            </div>
+
+
+          </div>
+
+
+          <div class="music-card">
+            <div class="card-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" height="75px" width="75px" alt="singer_img">
+
+              <i class="fa-solid fa-play"></i>
+
+            </div>
+
+            <div class="card-desc">
+              <span><b>Onism</b></span><br>
+              <span>AUG 11, 2017</span>
+              <i class="fa-solid fa-ellipsis"></i>
+
+              <input id="check13" type="checkbox" name="menu" />
+              <label for="check13"><i class="fa-solid fa-ellipsis"></i></label>
+              <ul class="submenu">
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+              </ul>
+
+              <span class="duration">4:22</span>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="popular-artists">
+        <h3>Popular Artists</h3>
+
+        <div class="artist-holder">
+
+          <div class="artist" style="text-align: center;">
+            <a href="./singlePlaylist.html"><img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="" height="100%" width="100%">
+            <i class="fa-solid fa-play"></i>
+            <span>ColdPlay</span></a>
+          </div>
+
+          <div class="artist" style="text-align: center;">
+            <a href="./singlePlaylist.html"><img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="" height="100%" width="100%">
+            <i class="fa-solid fa-play"></i>
+            <span>ColdPlay</span></a>
+          </div>
+
+          <div class="artist" style="text-align: center;">
+            <a href="./singlePlaylist.html"><img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="" height="100%" width="100%">
+            <i class="fa-solid fa-play"></i>
+            <span>ColdPlay</span></a>
+          </div>
+
+          <div class="artist" style="text-align: center;">
+            <a href="./singlePlaylist.html"><img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="" height="100%" width="100%">
+            <i class="fa-solid fa-play"></i>
+            <span>ColdPlay</span></a>
+          </div>
+
+          <div class="artist" style="text-align: center;">
+            <a href="./singlePlaylist.html"><img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="" height="100%" width="100%">
+            <i class="fa-solid fa-play"></i>
+            <span>ColdPlay</span></a>
+          </div>
+
+
+
+        </div>
+
+      </section>
+      <section class="stations">
+        <h3 style="text-align: center;">Stations</h3>
+
+        <div class="top-stations">
+
+          <div class="top-station love">
+            <span>Love</span>
+          </div>
+
+          <div class="top-station retro">
+            <span>Retro</span>
+          </div>
+
+          <div class="top-station chill">
+            <span>Chill</span>
+          </div>
+
+          <div class="top-station workout">
+            <span>Workout</span>
+          </div>
+
+          <div class="top-station rock">
+            <span>Rock</span>
+          </div>
+
+          <div class="top-station pop">
+            <span>Pop</span>
+          </div>
+
+        </div>
+
+        <div class="bottom-station">
+
+          <div class="station-container">
+            <img src="./images/party.jpg" alt="">
+            <div class="text">Party</div>
+          </div>
+
+          <div class="station-container">
+            <img src="./images/electronic.jpg" alt="">
+            <div class="text">Electronic</div>
+          </div>
+
+          <div class="station-container">
+            <img src="./images/roadtrip.jpg" alt="">
+            <div class="text">Road Trip</div>
+          </div>
+
+        </div>
+
+      </section>
+      <section class="latest-songs">
+
+        <h3 style="text-align: center;">Latest English</h3>
+        <div class="songs">
+
+          <div class="song-card">
+            <div class="cover-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="singer_img">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="song-des">
+              <span>Onism</span><br>
+              <span>AUG 11,2017</span>
+
+            </div>
+          </div>
+
+          <div class="song-card">
+            <div class="cover-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="singer_img">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="song-des">
+              <span>Onism</span><br>
+              <span>AUG 11,2017</span>
+
+            </div>
+          </div>
+
+          <div class="song-card">
+            <div class="cover-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="singer_img">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="song-des">
+              <span>Onism</span><br>
+              <span>AUG 11,2017</span>
+
+            </div>
+          </div>
+
+          <div class="song-card">
+            <div class="cover-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="singer_img">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="song-des">
+              <span>Onism</span><br>
+              <span>AUG 11,2017</span>
+
+            </div>
+          </div>
+
+          <div class="song-card">
+            <div class="cover-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="singer_img">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="song-des">
+              <span>Onism</span><br>
+              <span>AUG 11,2017</span>
+
+            </div>
+          </div>
+
+          <div class="song-card">
+            <div class="cover-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="singer_img">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="song-des">
+              <span>Onism</span><br>
+              <span>AUG 11,2017</span>
+
+            </div>
+          </div>
+        </div>
+
+        <h3 style="text-align: center;">Latest Hindi</h3>
+        <div class="songs">
+
+          <div class="song-card">
+            <div class="cover-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="singer_img">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="song-des">
+              <span>Onism</span><br>
+              <span>AUG 11,2017</span>
+
+            </div>
+          </div>
+
+          <div class="song-card">
+            <div class="cover-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="singer_img">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="song-des">
+              <span>Onism</span><br>
+              <span>AUG 11,2017</span>
+
+            </div>
+          </div>
+
+          <div class="song-card">
+            <div class="cover-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="singer_img">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="song-des">
+              <span>Onism</span><br>
+              <span>AUG 11,2017</span>
+
+            </div>
+          </div>
+
+          <div class="song-card">
+            <div class="cover-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="singer_img">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="song-des">
+              <span>Onism</span><br>
+              <span>AUG 11,2017</span>
+
+            </div>
+          </div>
+
+          <div class="song-card">
+            <div class="cover-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="singer_img">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="song-des">
+              <span>Onism</span><br>
+              <span>AUG 11,2017</span>
+
+            </div>
+          </div>
+
+          <div class="song-card">
+            <div class="cover-img">
+              <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="singer_img">
+              <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="song-des">
+              <span>Onism</span><br>
+              <span>AUG 11,2017</span>
+
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+    </div>
+
+    <div class="right-main">
+      <div class="playlist-head">
+        <h3>Queue</h3>
+
+        <div class="menu">
+          <input id="check01" type="checkbox" name="menu" />
+          <label for="check01">Menu</label>
+          <ul class="submenu">
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+          </ul>
+
+        </div>
+
+      </div>
+
+      <div class="playlist">
+        <div class="playlist-song">
+          <span>01</span>
+          <div class="song-image">
+            <img src="./images//long-hair-guitar-guy-singing-low-view.jpg" alt="">
+            <i class="fa-solid fa-play"></i>
+          </div>
+
+          <div class="song-detail">
+            <span>Mirage</span><br>
+            <span>Elese</span>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+
+        </div>
+
+        <div class="playlist-song">
+          <span>01</span>
+          <div class="song-image">
+            <img src="./images//long-hair-guitar-guy-singing-low-view.jpg" alt="">
+            <i class="fa-solid fa-play"></i>
+          </div>
+
+          <div class="song-detail">
+            <span>Mirage</span><br>
+            <span>Elese</span>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+
+        </div>
+
+        <div class="playlist-song">
+          <span>01</span>
+          <div class="song-image">
+            <img src="./images//long-hair-guitar-guy-singing-low-view.jpg" alt="">
+            <i class="fa-solid fa-play"></i>
+          </div>
+
+          <div class="song-detail">
+            <span>Mirage</span><br>
+            <span>Elese</span>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="songdetail">
+      <img src="./images/long-hair-guitar-guy-singing-low-view.jpg" alt="">
+      <span>Little One <br> <span style="opacity: 0.5;">onism</span></span>
+    </div>
+
+    <div class="song-controller">
+      <div>
+        <i class="fa-solid fa-backward"></i>
+        <i class="fa-solid fa-pause"></i>
+        <i class="fa-solid fa-forward"></i>
+      </div>
+      <div>
+        <input type="range">
+
+      </div>
+
+    </div>
+
+    <div class="volum-section">
+      <i class="fa-solid fa-computer"></i>
+      <i class="fa-solid fa-list"></i>
+    </div>
+
+
+  </footer>
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
